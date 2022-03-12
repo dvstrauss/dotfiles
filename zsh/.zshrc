@@ -9,6 +9,9 @@ source ~/.zshrc_prompt
 export BROWSER=chromium
 export EDITOR=/usr/bin/nvim
 
+# Use bat as manpager
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+
 # history
 HISTSIZE=20000
 HISTFILE=~/.zsh_history
