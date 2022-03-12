@@ -1,0 +1,31 @@
+# vim
+alias v="nvim"
+alias vim="nvim"
+alias e="nvim"
+alias :e="nvim"
+alias q="exit"
+alias :q="exit"
+
+# git
+alias gc="git commit"
+alias gca="git commit --amend"
+alias gcan="git commit --amend --no-edit"
+alias gs="git status"
+alias gco="git checkout"
+alias gcob="git checkout -b"
+alias gpl="git pull"
+alias gps="git push"
+alias gcm="git checkout master"
+alias gcmm="git checkout main"
+
+# apoex
+alias kc="kubeconsole"
+alias kcp="kubeconsole production"
+alias kcs="kubeconsole sandbox"
+
+# system
+alias update="sudo pacman -Syu"
+alias cat="bat"
+alias ls="ls -la"
+alias x="exit"
+

@@ -1,0 +1,15 @@
+[user]
+	name = Daniel von Strauss
+	email = 8156309+dvstrauss@users.noreply.github.com
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = nvim
+[push]
+	default = current
+[fetch]
+	prune = true
+[pull]
+	rebase = false
+[init]
+	defaultBranch = main
+
