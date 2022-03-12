@@ -1,11 +1,8 @@
-# prompt
-source ~/.zshrc_prompt
-
-# aliases
-source ~/.zsh/aliases
-
-# completion
+# imports
 source ~/.zsh/completion
+source ~/.zsh/functions
+source ~/.zsh/aliases
+source ~/.zshrc_prompt
 
 # default apps
 export BROWSER=chromium

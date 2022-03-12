@@ -1,0 +1,10 @@
+clone() { git clone git@github.com:$1.git ~/code/$1 && cd ~/code/$1 }
+json_pretty(){ ruby -rjson -e "STDOUT.puts JSON.pretty_generate(JSON[STDIN.read])" }
+uuid(){ ruby -rsecurerandom -e "STDOUT.puts SecureRandom.uuid" }
+gc() {
+  local branches branch
+  branches=$(git for-each-ref --count=30 --sort=-committerdate refs/heads/ --format="%(refname:short)") &&
+  branch=$(echo "$branches" | fzf +m) &&
+  git checkout $(echo "$branch" | sed "s/.* //" | sed "s#remotes/[^/]*/##")
+}
+
