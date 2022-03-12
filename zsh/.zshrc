@@ -1,5 +1,6 @@
 # imports
 source ~/.zsh/completion
+source ~/.zsh/keybindings
 source ~/.zsh/functions
 source ~/.zsh/aliases
 source ~/.zshrc_prompt

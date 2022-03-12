@@ -1,0 +1,7 @@
+# History search with arrows up/down.
+bindkey '^[[A' up-line-or-search
+bindkey '^[[B' down-line-or-search
+
+# Make the delete key work
+bindkey "\e[3~" delete-char
+
