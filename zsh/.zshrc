@@ -4,6 +4,9 @@ source ~/.zshrc_prompt
 # aliases
 source ~/.zsh/aliases
 
+# completion
+source ~/.zsh/completion
+
 # default apps
 export BROWSER=chromium
 export EDITOR=/usr/bin/nvim
