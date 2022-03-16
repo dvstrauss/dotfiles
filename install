@@ -3,6 +3,7 @@ stow_dirs=(
 	zsh
 	git
 	nvim
+	tmux
 )
 echo "🚀 Stow dirs"
 for stow_dir in ${stow_dirs[@]}

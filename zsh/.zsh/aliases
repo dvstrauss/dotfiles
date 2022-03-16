@@ -5,6 +5,11 @@ alias e="nvim"
 alias :e="nvim"
 alias q="exit"
 alias :q="exit"
+alias vimrc="nvim ~/.config/nvim/init.lua"
+
+# pbcopy
+alias pbcopy="xclip -selection clipboard"
+alias pbpaste="xclip -selection clipboard -o"
 
 # git
 alias gca="git commit --amend"
@@ -22,9 +27,12 @@ alias kc="kubeconsole"
 alias kcp="kubeconsole production"
 alias kcs="kubeconsole sandbox"
 
+alias publickey="cat ~/.ssh/id_rsa.pub | pbcopy"
+
 # system
 alias update="sudo pacman -Syu"
 alias cat="bat"
+alias diff="diff-so-fancy"
 alias ls="ls -la"
 alias x="exit"
 

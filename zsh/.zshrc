@@ -8,8 +8,6 @@ source ~/.zshrc_prompt
 # default apps
 export BROWSER=chromium
 export EDITOR=/usr/bin/nvim
-
-# Use bat as manpager
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # history
