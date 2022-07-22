@@ -4,6 +4,7 @@ stow_dirs=(
 	git
 	nvim
 	tmux
+	kde
 )
 echo "🚀 Stow dirs"
 for stow_dir in ${stow_dirs[@]}

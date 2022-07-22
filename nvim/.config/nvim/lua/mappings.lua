@@ -41,6 +41,9 @@ map("n", "<Leader>gpp", [[<Cmd> Dispatch! git pp <CR>]], opt)
 map("n", "<Leader>gpr", [[<Cmd> Dispatch! git p-r <CR>]], opt)
 map("n", "<Leader>gpu", [[<Cmd> Dispatch! git pushu <CR>]], opt)
 map("n", "<Leader>gcm", [[<Cmd> Dispatch! git checkout master <CR>]], opt)
+vim.api.nvim_exec([[
+nmap <Leader>gem "=system('gitmoji-selector')<C-M>P
+]], true)
 
 -- Telescope
 map("n", "<Leader>gb", [[<Cmd> Telescope git_branches <CR>]], opt)

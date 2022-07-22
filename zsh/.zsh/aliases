@@ -29,10 +29,20 @@ alias kcs="kubeconsole sandbox"
 
 alias publickey="cat ~/.ssh/id_rsa.pub | pbcopy"
 
+# rails
+alias rc="rails c"
+alias rs="rails s"
+alias wp="bin/webpack-dev-server --hot"
+
 # system
-alias update="sudo pacman -Syu"
+alias update="sudo pacman -Syu && flatpak update"
 alias cat="bat"
 alias diff="diff-so-fancy"
 alias ls="ls -la"
 alias x="exit"
+
+# zshrc
+alias zshrc="nvim ~/.zshrc"
+alias sourcez="source ~/.zshrc"
+alias aliases="nvim ~/.dotfiles/zsh/.zsh/aliases"
 

@@ -15,6 +15,9 @@ HISTSIZE=20000
 HISTFILE=~/.zsh_history
 SAVEHIST=20000
 
+# paths
+export PATH="/home/dvs/.cargo/bin:$PATH"
+
 # cd
 export CDPATH="$CDPATH:$HOME:$HOME/code:$HOME/.config"
 setopt auto_cd
@@ -34,4 +37,6 @@ eval "$(rbenv init -)"
 
 # nvm
 source /usr/share/nvm/init-nvm.sh
+
+export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/ssh-agent.socket"
 
